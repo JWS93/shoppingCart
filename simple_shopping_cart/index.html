@@ -58,7 +58,7 @@
                 <td><button class = "btn btn-light btn-sm remove">remove</button></td>
               </tr>
               <tr>
-                <td class = "name">lamb</td>
+                <td class = "name">Lamb</td>
                 <td class = "cost">20</td>
                 <td class = "quantity"><input type = "number" value = "0"></td>
                 <td class = "productTotal"></td>
@@ -67,6 +67,12 @@
             </tbody>
           </table>
         </div>
+        <form class = "col-12" id = "addProduct">
+          <input class = "mx-3" name = "name" type = "text" placeholder = "Name" required/>
+          <input class = "mx-3" name = "cost" type = "text" placeholder = "Price" />
+          <input class = "mx-3" name = "quantity" type = "text" placeholder = "Quantity" />
+          <button class = "btn btn-primary btn-sm add">add</button>
+        </form>
         <div class = "col-12 col-md-6">
           <h4>Cart Total: $<span id = "grandTotal"></span></h4>
         </div>
