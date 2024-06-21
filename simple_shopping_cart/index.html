@@ -32,7 +32,7 @@
               <tr>
                 <td class = "name">Steak</td>
                 <td class = "cost">25</td>
-                <td class = "quantity"><input type = "number" value = "0" /></td>
+                <td class = "quantity"><input type = "number" value = "0" min = "0" /></td>
                 <td class = "productTotal"></td>
                 <td><button class = "btn btn-light btn-sm remove">remove</button></td>
               </tr>
@@ -46,21 +46,21 @@
               <tr>
                 <td class = "name">Pork Chop</td>
                 <td class = "cost">20</td>
-                <td class = "quantity"><input type = "number" value = "0" /></td>
+                <td class = "quantity"><input type = "number" value = "0" min = "0" /></td>
                 <td class = "productTotal"></td>
                 <td><button class = "btn btn-light btn-sm remove">remove</button></td>
               </tr>
               <tr>
                 <td class = "name">Chicken</td>
                 <td class = "cost">15</td>
-                <td class = "quantity"><input type = "number" value = "0" /></td>
+                <td class = "quantity"><input type = "number" value = "0" min = "0" /></td>
                 <td class = "productTotal"></td>
                 <td><button class = "btn btn-light btn-sm remove">remove</button></td>
               </tr>
               <tr>
                 <td class = "name">Lamb</td>
                 <td class = "cost">20</td>
-                <td class = "quantity"><input type = "number" value = "0"></td>
+                <td class = "quantity"><input type = "number" value = "0" min = "0" ></td>
                 <td class = "productTotal"></td>
                 <td><button class = "btn btn-light btn-sm remove">remove</button></td>
               </tr>
@@ -69,8 +69,8 @@
         </div>
         <form class = "col-12" id = "addProduct">
           <input class = "mx-4" name = "name" type = "text" placeholder = "Name" required/>
-          <input class = "mx-4" name = "cost" type = "text" placeholder = "Price" />
-          <input class = "mx-4" name = "quantity" type = "text" placeholder = "Quantity" />
+          <input class = "mx-4" name = "cost" type = "text" placeholder = "Price" min = "0" />
+          <input class = "mx-4" name = "quantity" type = "text" placeholder = "Quantity" min = "0" />
           <button class = "btn btn-primary btn-sm add">add</button>
         </form>
         <div class = "col-12 col-md-6">
